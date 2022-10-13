@@ -1,0 +1,107 @@
+body{
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/estee-janssens-aQfhbxailCs-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Rubik', sans-serif;
+  font-family: "Font Awesome 5 free";
+}
+.container{
+  background-image: url(./images/emile-seguin-R9OueKOtGGU-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-top: 10px solid blanchedalmond;
+  border-bottom: 10px solid blanchedalmond;
+
+}
+
+#line{
+  display: flex; 
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 4px;
+  background-color: orange;
+  padding: 0;
+  transition: all 0.4s;
+}
+
+.Inputuser{
+  width: 50vw;
+  list-style: none;
+  outline: none;
+  
+}
+
+.button_add{
+  margin-left: 0.5em;
+  background-color: blanchedalmond;
+}
+
+.task-box{
+  border: 1px solid black;
+
+  margin-top: 1em;
+}
+
+
+.TaskTabs{
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+.TaskTabs div{
+padding: 1em;
+cursor: pointer;
+color: black;
+}
+
+.task{
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  color: black;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.task-done{
+  text-decoration: line-through;
+}
+
+
+.button-add {
+  border: none;
+  background-color: blanchedalmond;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+}
+.button-add:hover {
+  background-color: cadetblue;
+}
+.button-add:active {
+  background-color: #f3f4f6;
+  box-shadow: -1px 2px 5px rgba(81, 41, 10, 0.15),
+    0px 1px 1px rgba(81, 41, 10, 0.15);
+  transform: translateY(0.125rem);
+}
+
+
+.fa-check {
+  color: limegreen;
+}
+
+.fa-trash {
+  color: red;
+}
+.task-done {
+  background-color: lightgray;
+  transition: 0.8s;
+  border-radius: 20px;
+}
